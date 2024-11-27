@@ -3,12 +3,13 @@
 # 域名后缀匹配
 DOMAIN-SUFFIX,qichiyu.com
 DOMAIN-SUFFIX,rewards.bing.com
+DOMAIN-SUFFIX,mojie.me
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,1e100
 DOMAIN-KEYWORD,rewards
 DOMAIN-KEYWORD,xbox
-DOMAIN-KEYWORD,mojie
+#DOMAIN-KEYWORD,mojie
 DOMAIN-KEYWORD,bajie
 DOMAIN-KEYWORD,zhubajie
 # IP段匹配
