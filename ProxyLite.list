@@ -8,7 +8,7 @@ DOMAIN-SUFFIX,rewards.bing.com
 DOMAIN-KEYWORD,1e100
 DOMAIN-KEYWORD,rewards
 DOMAIN-KEYWORD,xbox
-
+DOMAIN-KEYWORD,mojie
 # IP段匹配
 IP-CIDR,142.171.133.131/32,no-resolve
 IP-CIDR,103.115.43.2/32,no-resolve
