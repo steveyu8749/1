@@ -3,6 +3,8 @@
 # 域名后缀匹配
 DOMAIN-SUFFIX,qichiyu.com
 DOMAIN-SUFFIX,rewards.bing.com
+DOMAIN-SUFFIX,msn.com
+DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,mojie.me
 
 # 域名关键字匹配
