@@ -16,6 +16,7 @@ DOMAIN-SUFFIX,appcenter.ms
 DOMAIN-SUFFIX,azure.com
 DOMAIN-SUFFIX,playfabapi.com
 DOMAIN-SUFFIX,xboxab.com
+DOMAIN-SUFFIX,virtualearth.net
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,1e100
