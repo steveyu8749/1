@@ -12,6 +12,10 @@ DOMAIN-SUFFIX,scorecardresearch.com
 DOMAIN-SUFFIX,akamaized.net
 DOMAIN-SUFFIX,smartasset.com
 DOMAIN-SUFFIX,lendingtree.com
+DOMAIN-SUFFIX,appcenter.ms
+DOMAIN-SUFFIX,azure.com
+DOMAIN-SUFFIX,playfabapi.com
+DOMAIN-SUFFIX,xboxab.com
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,1e100
