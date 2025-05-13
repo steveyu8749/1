@@ -17,6 +17,7 @@ DOMAIN-SUFFIX,azure.com
 DOMAIN-SUFFIX,playfabapi.com
 DOMAIN-SUFFIX,xboxab.com
 DOMAIN-SUFFIX,virtualearth.net
+DOMAIN-SUFFIX,adjust.com
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,1e100
