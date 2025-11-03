@@ -9,12 +9,15 @@ DOMAIN-SUFFIX,smartasset.com
 DOMAIN-SUFFIX,lendingtree.com
 DOMAIN-SUFFIX,adjust.com
 DOMAIN-SUFFIX,clarity.ms
+DOMAIN-SUFFIX,onenote.com
+DOMAIN-SUFFIX,onenote.net
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,1e100
 DOMAIN-KEYWORD,rewards
 DOMAIN-KEYWORD,bajie
 DOMAIN-KEYWORD,zhubajie
+DOMAIN-KEYWORD,onenote
 # IP段匹配
 IP-CIDR,142.171.133.131/32,no-resolve
 IP-CIDR,103.115.43.2/32,no-resolve
