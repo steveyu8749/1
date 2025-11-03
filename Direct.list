@@ -24,6 +24,28 @@ IP-CIDR,180.76.76.76/32,no-resolve
 IP-CIDR,114.114.114.114/32,no-resolve
 IP-CIDR,114.114.115.115/32,no-resolve
 
+# webofscience
+DOMAIN-SUFFIX,sciencedirect.com
+DOMAIN-SUFFIX,sciencedirectassets.com
+DOMAIN-SUFFIX,cell.com
+DOMAIN-SUFFIX,clinicalkey.com
+DOMAIN-SUFFIX,els-cdn.com
+DOMAIN-SUFFIX,elsevier-ae.com
+DOMAIN-SUFFIX,elsevier.com
+DOMAIN-SUFFIX,elsevier.io
+DOMAIN-SUFFIX,engineeringvillage.com
+DOMAIN-SUFFIX,evise.com
+DOMAIN-SUFFIX,fundinginstitutional.com
+DOMAIN-SUFFIX,knovel.com
+DOMAIN-SUFFIX,mendeley.com
+DOMAIN-SUFFIX,reaxys.com
+DOMAIN-SUFFIX,scival.com
+DOMAIN-SUFFIX,scopus.com
+DOMAIN-SUFFIX,clarivate.com
+DOMAIN-SUFFIX,webofknowledge.com
+DOMAIN-SUFFIX,webofscience.com
+DOMAIN-SUFFIX,newisiknowledge.com
+DOMAIN-SUFFIX,isiknowledge.com
 
 # 360
 DOMAIN-SUFFIX,360.com
