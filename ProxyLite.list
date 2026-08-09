@@ -1,38 +1,21 @@
-# 代理补充列表
+# 自维护代理补充列表（behavior: classical, format: text）
+#
+# 这里只收录必须固定进入“默认代理”、且现有专用服务或地域 MRS 未能表达的个人例外。
+# Bing / Microsoft / Google 等专用集合已经覆盖的域名不在这里重复维护；国外 DNS
+# 也由现有域名/IP 规则或 DNS 劫持处理。新条目优先使用精确 DOMAIN-SUFFIX，只有
+# 无法确定稳定后缀时才考虑 DOMAIN-KEYWORD。
 
-# 域名后缀匹配
+# 个人域名例外
 DOMAIN-SUFFIX,qichiyu.com
-DOMAIN-SUFFIX,rewards.bing.com
 DOMAIN-SUFFIX,mojie.me
-DOMAIN-SUFFIX,scorecardresearch.com
 DOMAIN-SUFFIX,smartasset.com
 DOMAIN-SUFFIX,lendingtree.com
 DOMAIN-SUFFIX,adjust.com
-DOMAIN-SUFFIX,clarity.ms
 
-# 域名关键字匹配
-DOMAIN-KEYWORD,rewards
-DOMAIN-KEYWORD,bajie
-# IP段匹配
+# 八戒相关：使用明确后缀，避免 DOMAIN-KEYWORD,bajie 继续误匹配已移除的 zhubajie。
+DOMAIN-SUFFIX,bajie1.com
+DOMAIN-SUFFIX,bajiexinxi.net
+
+# 精确 IP 例外：保留既有目的地址，不扩大为所属网段。
 IP-CIDR,142.171.133.131/32,no-resolve
 IP-CIDR,103.115.43.2/32,no-resolve
-
-# 国外DNS
-DOMAIN-SUFFIX,dns.google
-DOMAIN-SUFFIX,1dot1dot1dot1.cloudflare-dns.com
-DOMAIN-SUFFIX,dot.sb
-DOMAIN-SUFFIX,dns.umbrella.com
-DOMAIN-SUFFIX,dns.quad9.net
-DOMAIN-SUFFIX,dns.google
-DOMAIN-SUFFIX,cloudflare-dns.com
-DOMAIN-SUFFIX,doh.dns.sb
-DOMAIN-SUFFIX,doh.opendns.com
-DOMAIN-SUFFIX,dns.quad9.net
-DOMAIN-SUFFIX,hk-hkg.doh.sb
-IP-CIDR,8.8.8.8/32,no-resolve
-IP-CIDR,8.8.4.4/32,no-resolve
-IP-CIDR,1.1.1.1/32,no-resolve
-IP-CIDR,1.0.0.1/32,no-resolve
-IP-CIDR,185.222.222.222/32,no-resolve
-IP-CIDR,208.67.222.222/32,no-resolve
-IP-CIDR,208.67.220.220/32,no-resolve
